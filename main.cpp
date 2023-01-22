@@ -3,10 +3,18 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "Game");
+    GameData::Instance()->font = new sf::Font();
+    if (!GameData::Instance()->font->loadFromFile("Resources/Roboto-Black.ttf")) return 0 ;
+	
+	sf::RenderWindow window(sf::VideoMode(1280, 720), "Game");
 
-    GameData gameData;
-    gameData.Init();
+	PlayerInfos* player1 = new PlayerInfos();
+    GameData::Instance()->players.push_back(player1);
+	
+    PlayerInfos* player2 = new PlayerInfos();
+    GameData::Instance()->players.push_back(player2);
+
+    GameData::Instance()->Init();
   
     while (window.isOpen())
     {
@@ -17,8 +25,10 @@ int main()
                 window.close();
         
         window.clear();
-        gameData.draw(window);
-        gameData.update();
+        GameData::Instance()->update();
+        player1->update();
+		player2->update();
+        GameData::Instance()->draw(window);
         window.display();
     }
     return EXIT_SUCCESS;

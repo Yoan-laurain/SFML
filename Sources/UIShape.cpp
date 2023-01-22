@@ -21,6 +21,7 @@ void UIShape::draw(sf::RenderWindow& window)
 {
     shape->setFillColor(color);
     shape->setPosition(x, y);
+	shape->setOrigin(width / 2, height / 2);
     shape->setSize(sf::Vector2f(width, height));
     window.draw(*shape);
 }

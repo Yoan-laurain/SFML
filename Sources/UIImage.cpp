@@ -14,6 +14,7 @@ UIImage::UIImage(sf::Texture* texture, const sf::Color& color, sf::Vector2f UV, 
     this->width = _width;
 
     sprite = new sf::RectangleShape(sf::Vector2f(width, height));
+	sprite->setOrigin(width / 2, height / 2);
 
     this->texture = texture;
 }

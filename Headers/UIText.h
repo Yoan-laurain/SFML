@@ -17,8 +17,6 @@ public:
 
     void draw(sf::RenderWindow& window) override;
 
-private:
-
     sf::Text text;
     std::string strText;
     sf::Color textColor;

@@ -12,7 +12,7 @@ public:
     void update_rect() override;
     
     void draw(sf::RenderWindow &window);
-private :
+
     sf::Color color;
     sf::RectangleShape* shape;
 };

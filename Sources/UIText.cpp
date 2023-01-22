@@ -24,6 +24,7 @@ void UIText::draw( sf::RenderWindow &window )
 {
     text.setString(strText);
     text.setFillColor(textColor);
+	text.setOrigin(width / 2, height / 2);
     text.setFont(*font);
     text.setCharacterSize(fontSize);
     text.setPosition(x, y);

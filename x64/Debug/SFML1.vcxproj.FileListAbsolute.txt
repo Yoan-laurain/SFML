@@ -1,1 +1,3 @@
 C:\Users\ghost\Desktop\S1\x64\Debug\SFML1.exe
+D:\Users\ghost\Bureau\test\SFML\x64\Debug\SFML1.exe
+D:\Users\ghost\Bureau\SFML\x64\Debug\SFML1.exe
