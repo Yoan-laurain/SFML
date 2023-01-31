@@ -95,6 +95,8 @@ PlayerInfos::PlayerInfos()
     GameData::Instance()->uiElementslist.push_back(text1);
     GameData::Instance()->uiElementslist.push_back(text2);
     GameData::Instance()->uiElementslist.push_back(text3);
+
+	GameData::Instance()->players.push_back(this);
 }
 
 void PlayerInfos::apply_event(const GameEvent& event)

@@ -9,10 +9,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "Game");
 
 	PlayerInfos* player1 = new PlayerInfos();
-    GameData::Instance()->players.push_back(player1);
-	
     PlayerInfos* player2 = new PlayerInfos();
-    GameData::Instance()->players.push_back(player2);
 
     GameData::Instance()->Init();
   

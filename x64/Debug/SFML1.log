@@ -1,24 +1,27 @@
-﻿  PlayerInfos.cpp
-D:\Users\ghost\Bureau\SFML\Headers\GameData.h(14,1): warning C4099: 'GameEvent' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
-D:\Users\ghost\Bureau\SFML\Headers\GameData.h(13): message : voir la déclaration de 'GameEvent'
-D:\Users\ghost\Bureau\SFML\Sources\PlayerInfos.cpp(11,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-  SFML1.vcxproj -> D:\Users\ghost\Bureau\SFML\x64\Debug\SFML1.exe
-  D:\Users\ghost\Bureau\SFML\Resources\avatar1.png
-  D:\Users\ghost\Bureau\SFML\Resources\avatar2.png
-  D:\Users\ghost\Bureau\SFML\Resources\enemy_health_bar_000.png
-  D:\Users\ghost\Bureau\SFML\Resources\enemy_health_bar_background_000.png
-  D:\Users\ghost\Bureau\SFML\Resources\enemy_health_bar_foreground_000.png
-  D:\Users\ghost\Bureau\SFML\Resources\Roboto-Black.ttf
+﻿  main.cpp
+C:\Users\ghost\Desktop\SFML\Headers\GameData.h(14,1): warning C4099: 'GameEvent' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+C:\Users\ghost\Desktop\SFML\Headers\GameData.h(13,8): message : voir la déclaration de 'GameEvent'
+  PlayerInfos.cpp
+C:\Users\ghost\Desktop\SFML\Headers\GameData.h(14,1): warning C4099: 'GameEvent' : nom de type déjà rencontré avec 'class' et utilisant maintenant 'struct'
+C:\Users\ghost\Desktop\SFML\Headers\GameData.h(13,8): message : voir la déclaration de 'GameEvent'
+C:\Users\ghost\Desktop\SFML\Sources\PlayerInfos.cpp(11,53): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  SFML1.vcxproj -> C:\Users\ghost\Desktop\SFML\x64\Debug\SFML1.exe
+  C:\Users\ghost\Desktop\SFML\Resources\avatar1.png
+  C:\Users\ghost\Desktop\SFML\Resources\avatar2.png
+  C:\Users\ghost\Desktop\SFML\Resources\enemy_health_bar_000.png
+  C:\Users\ghost\Desktop\SFML\Resources\enemy_health_bar_background_000.png
+  C:\Users\ghost\Desktop\SFML\Resources\enemy_health_bar_foreground_000.png
+  C:\Users\ghost\Desktop\SFML\Resources\Roboto-Black.ttf
           6 fichier(s) copié(s).
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\openal32.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-audio-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-audio-d-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-graphics-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-graphics-d-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-network-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-network-d-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-system-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-system-d-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-window-2.dll
-  D:\Users\ghost\Bureau\SFML\Dependencies\bin\sfml-window-d-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\openal32.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-audio-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-audio-d-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-graphics-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-graphics-d-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-network-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-network-d-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-system-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-system-d-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-window-2.dll
+  C:\Users\ghost\Desktop\SFML\Dependencies\bin\sfml-window-d-2.dll
          11 fichier(s) copié(s).
